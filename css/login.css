@@ -19,7 +19,7 @@
 section {
   position: relative;
   min-height: 100vh;
-  background-color: #f8dd30;
+  background-image: url("./chirstmas\ background.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
