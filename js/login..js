@@ -100,12 +100,11 @@ var loginpass = document.getElementById("loginpass").value;
             let flag = false;
 
             for  (let i=0; i<user.length ; i++) {
-               if(loginname == user[i].name){
+               if(loginname == user[i].name && loginpass == user[i].pass){
                 flag = true;
                 break;
                
                }
-             
             }
 
             if(flag == false){
